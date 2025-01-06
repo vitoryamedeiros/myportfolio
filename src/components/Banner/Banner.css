@@ -1,0 +1,24 @@
+
+img{
+    display: flex;
+    width: 600px;
+}
+
+.banner__title__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner__elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner__textPortfolio{
+    width: 40%;
+    height: 50%;
+}

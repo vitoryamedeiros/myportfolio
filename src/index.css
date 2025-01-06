@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #C62087;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* textura ------- ver como mesclar a opacity com a foto*/
+.texture, .noiseTexture{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  mix-blend-mode: overlay;  /* "multiply", "screen", ou outros valores */
+  pointer-events: none; /* Permite clicar nos elementos abaixo */
+  z-index: 1;
+}
+.texture{
+  opacity: 20%;
+}
+.noiseTexture{
+  opacity: 100%;
+}
+
+/* font config */
+.lightfont{
+  color: #fff;
+  font-family: "Kumbh Sans", serif;
+  font-weight: 400;
+}
+.strongfont{
+  font-family: "Jaro", serif;
+}
