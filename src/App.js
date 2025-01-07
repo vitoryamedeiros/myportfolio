@@ -1,5 +1,7 @@
 import NavBar from './components/NavBar/NavBar';
 import Banner from './components/Banner/Banner';
+import About from './components/About/About';
+
 import './index.css';
 import './components/NavBar/NavBar.css';
 import texture from '../src/assets/texture.png'
@@ -11,7 +13,8 @@ function App() {
       <img className="texture" src={texture} alt="Textura" />,
       <img className="texture" src={noiseTexture} alt="noiseTexture" />,
       <NavBar />,
-      <Banner />
+      <Banner />,
+      <About /> 
     </div>
   );
 }
