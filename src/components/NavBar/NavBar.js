@@ -7,8 +7,11 @@ const NavBar = () => (
     <nav className="navbar__container">
       <ul className="ul__container strongfont">
         <li className="ul__element"><a href="#home">Home</a></li>
+        {/* adc navbar__starSeparator */}
         <li className="ul__element"><a href="#about">About</a></li>
+        {/* adc navbar__starSeparator */}
         <li className="ul__element"><a href="#jobs">Jobs</a></li>
+        {/* adc navbar__starSeparator */}
         <li className="ul__element"><a href="#contact">Contact</a></li>
       </ul>
     </nav>

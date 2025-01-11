@@ -20,10 +20,14 @@
     align-items: center;
 }
 
-.ul__element{
+.ul__container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    list-style: none;
+    gap: 15px;
+    font-size: 1.3rem;
 }
+
 .ul__element > a{
     color: #C62087;
     text-decoration: none;
