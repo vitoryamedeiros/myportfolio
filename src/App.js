@@ -1,6 +1,8 @@
 import NavBar from './components/NavBar/NavBar';
 import Banner from './components/Banner/Banner';
 import About from './components/About/About';
+import Skills from './components/Skills/Skills';
+import Works from './components/Works/Works';
 
 import './index.css';
 import './components/NavBar/NavBar.css';
@@ -14,7 +16,9 @@ function App() {
       <img className="texture" src={noiseTexture} alt="noiseTexture" />,
       <NavBar />,
       <Banner />,
-      <About /> 
+      <About />,
+      <Skills />,
+      <Works/>,
     </div>
   );
 }

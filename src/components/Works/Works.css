@@ -1,0 +1,89 @@
+
+.works__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.works__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 100vw;
+    height: 80px;
+}
+
+.works__header__span{
+    color: #C62087;
+    font-size: 3.5rem;
+}
+
+.works__content{
+    display: flex;
+    margin: 30px 50px;
+}
+
+.project__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button__project{
+    width: 30%;
+    padding: 5px;
+    font-weight: 600;   
+    font-size: 1.3rem;
+    text-align: center; 
+    background-color: #fff;
+    box-shadow: 4px 5px 0px 0px rgba(122,3,75,0.75);
+    -webkit-box-shadow: 4px 5px 0px 0px rgba(122,3,75,0.75);
+    -moz-box-shadow: 4px 5px 0px 0px rgba(122,3,75,0.75);
+    border: none;
+}
+
+.button__project a{
+    text-decoration: none;
+    color: #7A034B;
+
+}
+/* -------- GRID CONFIG ---------- */
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+}
+
+.div3 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 3;
+}
+
+.div4 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+        

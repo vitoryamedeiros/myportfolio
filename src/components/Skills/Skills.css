@@ -1,0 +1,24 @@
+.skills__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.skills__container:before{
+    display: flex; 
+    background-color: #ffffff;
+    content: "";
+    height: 1px;
+    position: relative;
+    width: 40%;
+    margin-bottom: 28px;
+}
+
+.skills__content{
+    display: flex; 
+    padding-top: 30px;
+    gap: 40px;
+}
+
