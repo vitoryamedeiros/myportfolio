@@ -46,10 +46,21 @@
     border: none;
 }
 
+.button__project:hover {
+    background-color: #7a034aa7;
+    box-shadow: 4px 5px 0px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 4px 5px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 4px 5px 0px 0px rgba(255, 255, 255, 1);
+    border: none;
+}
+
 .button__project a{
     text-decoration: none;
     color: #7A034B;
+}
 
+.button__project a:hover{
+    color: #fff;
 }
 /* -------- GRID CONFIG ---------- */
 .parent {
@@ -87,3 +98,18 @@
     grid-row-start: 3;
 }
         
+button{
+    line-height: 1;
+    text-decoration: none;
+    color: var(--first-color);
+    font-size: 18px;
+    border-radius: 0px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    border: 2px solid;
+    transition: 0.3s;
+    box-shadow: 5px 5px 0px 0px var(--first-color);
+    background-color: #ffffff;
+}
+  
