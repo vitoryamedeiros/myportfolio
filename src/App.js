@@ -3,6 +3,8 @@ import Banner from './components/Banner/Banner';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
+import Certifications from './components/Certifications/Certifications';
+import Footer from './components/Footer/Footer';
 
 import './index.css';
 import './components/NavBar/NavBar.css';
@@ -19,6 +21,8 @@ function App() {
       <About />,
       <Skills />,
       <Works/>,
+      <Certifications/>,
+      <Footer/>,
     </div>
   );
 }

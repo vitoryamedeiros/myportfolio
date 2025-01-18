@@ -1,0 +1,80 @@
+
+.certificados.section
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.certf-cards 
+    {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    transition: transform 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-body{
+    padding: 10px;
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cCarousel-item {
+    min-width: 18rem;
+    margin-right: 1.5rem;
+    transition: transform 0.5s ease;
+}
+
+.cCarousel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.carousel-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: var(--first-color);
+    width: 40px;
+    height: 35px;
+    margin: 0 30px 0 50px;
+    border: 2px solid var(--first-color-alt);
+    transition: 0.3s;
+    box-shadow: 3px 3px 0px 0px var(--first-color);
+    background-color: #ffffff;
+    cursor: pointer; 
+    font-weight: 900;
+    font-size: 1rem;
+    position: relative;
+    top: 60px;
+}
+
+.carousel-button:hover {
+    background-color: var(--first-color);
+    box-shadow: 5px 5px 0px 0px #fff;
+    color: white;
+}
+  
+.certificados-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

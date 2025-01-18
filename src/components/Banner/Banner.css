@@ -2,7 +2,8 @@
 .banner__profilePic{
     display: flex;
     position: relative;
-    width: 600px;
+    top: -190px;
+    width: 650px;
 }
 
 .banner__title__content{
@@ -21,16 +22,24 @@
 
 .banner__text.name{
     display: flex;
-    text-align: left;
     position: relative;
+    right: 360px;
+    top: 40px;
+    font-size: 2rem;
 }
 .banner__text.profession{
     display: flex;
+    flex-direction: column;
     text-align: right;
+    position: relative;
+    left: 250px;
+    font-size: 1.4rem;
 }
+
 .banner__textPortfolio{
-    width: 40%;
-    height: 50%;
+    width: 35%;
+    height: 0%;
+    opacity: 60%;
 }
 .banner__tituloPortfolio{
     width: 1000px;
@@ -40,8 +49,15 @@
     display: flex;
     justify-content: center;    
     align-items: center;
-    position: absolute;
+    position: relative;
     z-index: 1;
     width: 70px;
     height: 50px;
+    top: -500px;
+    right: -850px;
+}
+.banner__arrowdonw:hover{
+    width: 80px;
+    height: 60px;
+    transition: ease-in-out;
 }

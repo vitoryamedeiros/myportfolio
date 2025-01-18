@@ -10,16 +10,18 @@ const Banner = () => (
     <div className="banner__title__content">
       <h2 className="banner__text name lightfont">Vitorya Medeiros</h2>
       <img className="banner__tituloPortfolio" src={banner__tituloPortfolio} alt="Titulo Portfolio" />
-      <h3 className="banner__text profession lightfont">Software and Web Developer</h3>
+      <h3 className="banner__text profession lightfont">Software Developer and UX/UI Designer</h3>
     </div>
     <div className="banner__elements">
       <img className="banner__profilePic" src={profilePic} alt="Minha Foto" />
       <img className="banner__textPortfolio" src={textPortfolio} alt="Text Portfolio" />
     </div>
 
-    <img className="banner__arrowdonw" src={banner__arrowdonw} alt="Arrow Donw" />
+    <a href="#about">
+      <img className="banner__arrowdonw" src={banner__arrowdonw} alt="Arrow Donw" />
+    </a> 
   </div>
-
+    
 );
 
 export default Banner;
