@@ -1,5 +1,7 @@
 import React from "react";
 import "./Banner.css";
+import "../../index.css";
+
 import profilePic from '../../assets/banner/banner__profilePic.png'
 import textPortfolio from '../../assets/banner/banner__textPortfolio.png'
 import banner__tituloPortfolio from '../../assets/banner/banner__tituloPortfolio.svg'

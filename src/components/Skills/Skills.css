@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: -50px;
 }
 
 .skills__container:before{
@@ -17,7 +19,7 @@
 
 .skills__content{
     display: flex; 
-    padding-top: 30px;
+    /* padding-top: 30px; */
     gap: 40px;
 }
 

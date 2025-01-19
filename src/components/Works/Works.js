@@ -1,5 +1,6 @@
 import React from "react";
 import "./Works.css";
+import "../../index.css";
 
 // importar as img do figma
 import project__photo__derry from '../../assets/works/project__photo__derry.svg'

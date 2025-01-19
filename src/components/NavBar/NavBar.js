@@ -1,5 +1,7 @@
 import React from "react";
 import "./NavBar.css";
+import "../../index.css";
+
 // import header__whiteStar from '../../assets/header__whiteStarCrab.png'
 import navbar__starSeparator from '../../assets/header/navbar__starSeparator.svg'
 

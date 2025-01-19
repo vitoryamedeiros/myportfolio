@@ -1,5 +1,7 @@
 import React from "react";
 import "./About.css";
+import "../../index.css";
+
 import about__contactIconGithub from '../../assets/about/about__contactIconGithub.svg'
 import about__contactIconLinkedin from '../../assets/about/about__contactIconLinkedin.svg'
 import about__contactIconInstagram from '../../assets/about/about__contactIconInstagram.svg'

@@ -41,6 +41,13 @@
     text-transform: none;
 }
 
+.ul__element > a:hover{
+    color: #f66cc1;
+    font-size: 1.5rem;
+    transition: transform 0.5s ease;
+
+}
+
 .navbar__starSeparator{
     width: 30px;
     height: 30px;

@@ -1,8 +1,11 @@
-
+.banner__container{
+    max-height: 100vh;
+    margin-bottom: 250px;
+}
 .banner__profilePic{
     display: flex;
     position: relative;
-    top: -190px;
+    top: -250px;
     width: 650px;
 }
 
@@ -57,7 +60,7 @@
     right: -850px;
 }
 .banner__arrowdonw:hover{
-    width: 80px;
-    height: 60px;
-    transition: ease-in-out;
+    transform: scale(1.3);
+    transition: transform 0.9s ease;
+    
 }

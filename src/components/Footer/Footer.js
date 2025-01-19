@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import "../../index.css";
 
 const Footer = () => (
     <div className="footer__bg footer__bg__dark">
