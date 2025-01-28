@@ -32,7 +32,7 @@ const About = () => (
         <div className="about__content">
             <div className="about__textArea">
                 <p className="about__text line formation">
-                    Apaixonada por tecnologia desde os <strong>14 anos</strong>, mergulhei de cabeça no mundo de T.I com o Ensino Medio-Tecnico, e atualmente sou graduanda <br></br> de <strong>Analise e Desenvolvimento de Sistemas</strong> pelo <strong>Porto Digital</strong>.
+                    Apaixonada por tecnologia, mergulhei de cabeça no mundo de T.I aos <strong>14 anos</strong> com o Ensino Medio-Tecnico, e atualmente sou graduanda em  <br></br><strong> Analise e Desenvolvimento de Sistemas</strong> pelo <strong>Porto Digital</strong>.
                 </p>
                 <p className="about__text line design">
                     Aspirante a <strong>UX/UI Designer</strong>, busco sempre colocar em pratica minha <strong>criatividade</strong> e aperfeiçoar meus conhecimentos na área, <strong>me destacando profissionalmente</strong>.

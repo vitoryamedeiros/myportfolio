@@ -11,7 +11,7 @@ import project__photo__undefined from '../../assets/works/work-popup.png'
 
 
 const Works = () => (
-    <div className="works__container">
+    <div id="works" className="works__container">
         <div className="works__header">
             <span className="works__header__span strongfont">work // work // work // work // work // work // work // work // work // work // work</span>
         </div>
